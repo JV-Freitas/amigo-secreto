@@ -63,9 +63,9 @@ function reiniciar() {
 function habilitaSortear() {
   let botaoSortear = document.getElementById("btn-sortear");
   console.log(botaoSortear);
-  if (listaNomes.length < 3) {
+  if (listaNomes.length < 4) {
     botaoSortear.setAttribute("disabled", "");
-  } else if (listaNomes.length > 3) {
+  } else if (listaNomes.length > 4) {
     botaoSortear.removeAttribute("disabled", "");
   }
 }
